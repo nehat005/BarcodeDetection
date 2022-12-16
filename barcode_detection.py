@@ -4,8 +4,8 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 import imutils
-
-image = cv2.imread('/home/tandon/Desktop/barcode_01.webp')
+image_file = 'barcode_01.webp'
+image = cv2.imread(image_file)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # compute the Scharr gradient magnitude representation of the images
 # in both the x and y direction using OpenCV 2.4
