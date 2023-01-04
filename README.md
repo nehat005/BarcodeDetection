@@ -1,6 +1,8 @@
 # BarcodeDetection
 
-##Overview
+This project comprises Python implementation of two methodologies to perform the task of barcode detection.
+
+## Overview
 - Adopt code from [PyImageSearch](https://pyimagesearch.com/2014/11/24/detecting-barcodes-images-python-opencv/)
 - Present basic overview of algorithm along with basic concepts in this repository for understanding purpose.
 - Implement a more robust Object Detection algorithm using HOG + Linear SVM
